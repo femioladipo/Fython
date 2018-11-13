@@ -64,4 +64,4 @@ while pc < len(p):
         break
     else:
         print i
-        raise "XXX"
+        raise Exception("XXX")

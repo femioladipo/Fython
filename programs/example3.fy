@@ -1,0 +1,27 @@
+INT 45
+CALL 11
+PRINT
+EXIT
+SWAP // F(0)
+RET
+POP // F(1)
+POP
+INT 1
+SWAP
+RET
+SWAP // F(x)
+JEQ 4 // do F(0)
+DUP
+INT 1
+SUB
+JEQ 6 // do F(1)
+CALL 11 // call F(x - 1)
+SWAP
+INT 1
+SUB
+INT 1
+SUB
+CALL 11 // call F(x - 2)
+ADD
+SWAP
+RET
