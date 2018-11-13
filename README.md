@@ -1,6 +1,6 @@
 # Fython
 
-Femi's Compiler written in Python2
+Femi's interpreter written in Python2
 
 ## Usage
 
